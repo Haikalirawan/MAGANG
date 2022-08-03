@@ -1,0 +1,7 @@
+DASAR DASAR OOP
+
+object adalah 
+abstrak adalah penyederhanaan sebuah kode.
+inherintance adalah pewarisan kode.
+enkapsulasi adalah penyembunyian detail.
+polimorfis adalah walaupun beda syntax tetapi memiliki tujuan yang sama

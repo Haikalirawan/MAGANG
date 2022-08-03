@@ -1,0 +1,17 @@
+- Htmlspecialchars,strip_tags,htmlentities baca di https://www.duniailkom.com/tutorial-form-php-validasi-form-untuk-mencegah-cross-site-scripting-dan-html-injection/
+
+- strip_tags() adalah sebuah fungsi untuk menghilangkan semua tag HTML
+	*validasi jika kita menggunakan <b>Hello</b> maka outputnya akan jadi Hello 
+
+- htmlentities() adalah sebuah fungsi untuk merubah semua tag HTML menjadi text biasa.
+	*validasi ini hampir sama seperti trip_tags, tetapi outputnya akan jadi <b>Heloo</b>
+
+- trim() adalah sebuah fungsi untuk menghapus spasi di kanan dan kiri text, 
+	*kalo lu bkin semacam guest box trus si user menginputkan spasi sebnyak 1000x what happen? coba sendiri aj (blon nyoba hihi :P).
+
+- addslashes untuk menambah backslash(\) sebelum tanda petik satu('),tanda petik dua("), backslash(\) dan NULL, (jika kalian ingin memasukkan (') tanpa error)
+	*agar lebih aman masuk ke dabes sebaiknya jika ingin digabungkan dengan stripslashes, stripslashes() didahulukan baru addslashes().
+
+- stripslashes untuk menghapus backslash didalam string.
+
+- str_replace untuk mengganti huruf atau angka maupun simbol tertentu dengan yang kita mau.
